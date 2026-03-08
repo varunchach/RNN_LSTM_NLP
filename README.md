@@ -139,9 +139,9 @@ tensorboard --logdir=runs
 ```
 
 Open **http://localhost:6006** to see loss and accuracy curves for all 3 models.
-![Uploading image.png…]()
 
 ---
+![Uploading image.png…]()
 
 ## Text Pipeline
 
