@@ -1,0 +1,13 @@
+torch>=2.0.0
+torchtext>=0.15.0
+datasets>=2.0.0
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+fastapi
+uvicorn
+tensorboard
+tqdm
+Pillow
