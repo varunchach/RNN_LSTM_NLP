@@ -16,6 +16,12 @@ An end-to-end educational NLP project that builds a complete sentiment analysis 
 
 ---
 
+## TensorBoard Monitoring
+
+![TensorBoard](Tensorboard_image.png)
+
+---
+
 ## Results
 
 Trained on 20,000 IMDb reviews, evaluated on 25,000 test reviews:
