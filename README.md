@@ -34,6 +34,18 @@ Trained on 20,000 IMDb reviews, evaluated on 25,000 test reviews:
 
 > GRU outperformed LSTM in 5 epochs because fewer parameters (2 gates vs 3) means less overfitting on limited training time.
 
+### Training Curves — All Models
+
+![Training Curves](assets/training_curves.png)
+
+### Model Comparison on Test Set
+
+![Model Comparison](assets/model_comparison.png)
+
+### GRU Confusion Matrix (Best Model)
+
+![GRU Confusion Matrix](assets/gru_confusion_matrix.png)
+
 ---
 
 ## Project Structure
@@ -147,7 +159,6 @@ tensorboard --logdir=runs
 Open **http://localhost:6006** to see loss and accuracy curves for all 3 models.
 
 ---
-![Uploading image.png…]()
 
 ## Text Pipeline
 
