@@ -16,12 +16,6 @@ An end-to-end educational NLP project that builds a complete sentiment analysis 
 
 ---
 
-## TensorBoard Monitoring
-
-![TensorBoard](Tensorboard_image.png)
-
----
-
 ## Results
 
 Trained on 20,000 IMDb reviews, evaluated on 25,000 test reviews:
@@ -34,11 +28,7 @@ Trained on 20,000 IMDb reviews, evaluated on 25,000 test reviews:
 
 > GRU outperformed LSTM in 5 epochs because fewer parameters (2 gates vs 3) means less overfitting on limited training time.
 
-### Training Curves — All Models
-
-![Training Curves](assets/training_curves.png)
-
-### Model Comparison on Test Set
+### Model Comparison
 
 ![Model Comparison](assets/model_comparison.png)
 
@@ -122,6 +112,10 @@ This will:
 - Save the best model as `saved_models/best_model.pt`
 - Display evaluation metrics and plots for each model
 
+**Training curves (loss & accuracy per epoch):**
+
+![Training Curves](assets/training_curves.png)
+
 ### 4. Start the API
 
 ```bash
@@ -157,6 +151,8 @@ tensorboard --logdir=runs
 ```
 
 Open **http://localhost:6006** to see loss and accuracy curves for all 3 models.
+
+![TensorBoard](Tensorboard_image.png)
 
 ---
 
